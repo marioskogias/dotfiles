@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+    name = Marios Kogias
+    email = marios.kogias@epfl.ch
+
+[alias]
+    tree = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
+    gl = "!git grep -n -W \"\\<$1\\>\" -- '*.[ch]' ':!Documentation' ':!arch/alpha' ':!arch/arm' ':!arch/arm64' ':!arch/blackfin' ':!arch/cris' ':!arch/frv' ':!arch/ia64' ':!arch/mips' ':!arch/powerpc' ':!arch/sparc' ':!arch/tile' ':!arch/um' ':!arch/m68k' ':!arch/microblaze' ':!arch/mn10300' ':!arch/parisc' ':!arch/s390' ':!arch/sh' ':!arch/avr32' ':!arch/m32r' ':!arch/xtensa' ':!arch/arc' ':!arch/c6x' ':!arch/hexagon' ':!arch/metag' ':!arch/openrisc' ':!arch/score' ':!arch/unicore32' ':!arch/h8300' #"
+[core]
+    editor = vim
